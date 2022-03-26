@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4729101200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check login",
+        "description": "",
+        "id": "facebook-login-page;check-login",
+        "after": [
+          {
+            "result": {
+              "duration": 36800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1940802400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Facebook and launch the application",
+            "match": {
+              "location": "LoginStepdef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 462016800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "LoginStepdef.enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepdef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login page",
+    "description": "",
+    "id": "facebook-login-page",
+    "keyword": "Feature",
+    "uri": "Features/login2.feature",
+    "tags": []
+  }
+]
