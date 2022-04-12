@@ -24,4 +24,6 @@ public class LoginPageRepo {
 		return password;
 	}
 
+// Added a new comment line in this class
+
 }
